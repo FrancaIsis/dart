@@ -11,23 +11,23 @@ void main() {
   //dynamic permite que cada valor seja de tipo diferente
 
   Map<String, dynamic> cadastro = {
-    'nome':'John Doe',
-    'nascimetno': 1970;
+    'nome': 'John Doe',
+    'nascimento': 1970,
     'altura': 1.80,
-    'est_civil':'solteiro';
-    'cidade':'Juiz de Fora',
-    'uf':'MG'
+    'est_civil': 'solteiro',
+    'cidade': 'Juiz de Fora',
+    'uf': 'MG',
   };
 
   //
   //Saída formatada
-  print('-'*70);
+  print('-' * 70);
   print('Minha agenda');
-  print(agenda);// imprime o map completo
-  print('-'*70);
+  print(agenda); // imprime o map completo
+  print('-' * 70);
 
-  print('-'*70);
-  print('Minha cadastro');
-  print(cadastro);// imprime o map completo
-  print('-'*70);
+  print('-' * 70);
+  print('Meu cadastro');
+  print(cadastro); // imprime o map completo
+  print('-' * 70);
 }
