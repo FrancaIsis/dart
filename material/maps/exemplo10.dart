@@ -19,9 +19,9 @@ void main() {
   // concatenar em uma única String
 
   // Entradas DO mAP (nome, idade)
-  String nomesAdultos = pessoas.entries
-      //Filtra: apenas maiores de idade -> Bruno, Carla, Diego
-      .where((entrada) => entrada.value >= 18)
-      //Tranforma: nomes em maiusculas -> BRUNO, CARLA, DIEGO
-      .map((entrada) => entrada.key.toUpperCase())
+  // String nomesAdultos = pessoas.entries
+  //     //Filtra: apenas maiores de idade -> Bruno, Carla, Diego
+  //     .where((entrada) => entrada.value >= 18)
+  //     //Tranforma: nomes em maiusculas -> BRUNO, CARLA, DIEGO
+  //     .map((entrada) => entrada.key.toUpperCase());
 }
